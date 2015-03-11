@@ -1,0 +1,202 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#5a99d5"
+    android:padding="20px"
+    android:weightSum="1">
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!-- Label for name -->
+        <TextView
+            android:id="@+id/label_name"
+            android:layout_width="250px"
+            android:layout_height="70px"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/name"
+            android:textSize="40px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10px"
+           />
+        <!-- Textbox for name -->
+        <EditText
+            android:id="@+id/edit_message"
+            android:layout_width="300px"
+            android:layout_height="70px"
+            android:padding="10px"
+            android:hint="@string/name2"
+            android:background="#FFFFFF"
+            android:layout_alignTop="@+id/label_name"
+            android:layout_alignLeft="@+id/edit_message2"
+            android:layout_alignStart="@+id/edit_message2" />
+        <!-- Label for like -->
+        <TextView
+            android:id="@+id/label_like"
+            android:layout_width="250px"
+            android:layout_height="70px"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/like"
+            android:textSize="40px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10px"
+            android:layout_below="@+id/label_name"
+            />
+        <EditText
+            android:id="@+id/edit_message2"
+            android:layout_width="500px"
+            android:layout_height="70px"
+            android:padding="10px"
+            android:hint="@string/like2"
+            android:background="#FFFFFF"
+
+            android:layout_alignTop="@+id/label_like"
+            android:layout_toRightOf="@+id/button_submit"
+            android:layout_toEndOf="@+id/button_submit" />
+        <!-- Label for like -->
+        <TextView
+            android:id="@+id/label_dislike"
+            android:layout_width="250px"
+            android:layout_height="70px"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/dislike"
+            android:textSize="40px"
+            android:layout_marginTop="10px"
+            android:layout_gravity="center_vertical"
+            android:layout_below="@+id/label_like"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <EditText
+            android:id="@+id/edit_message3"
+            android:layout_width="500px"
+            android:layout_height="70px"
+            android:padding="10px"
+            android:hint="@string/dislike2"
+            android:background="#FFFFFF"
+            android:layout_marginTop="10px"
+            android:layout_below="@+id/edit_message2"
+            android:layout_toRightOf="@+id/button_submit" />
+
+
+
+
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_submit"
+            android:layout_gravity="bottom"
+            android:onClick="sendMessage"
+            android:padding="30px"
+            android:textColor="#FFF"
+            android:background="#ff000000"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_alignTop="@+id/textView"
+            android:layout_alignLeft="@+id/edit_message3"
+            android:layout_alignStart="@+id/edit_message3" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="250px"
+            android:layout_height="70px"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Date"
+            android:textSize="40px"
+            android:layout_gravity="center_vertical"
+            android:layout_below="@+id/label_dislike"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:layout_below="@+id/seekBar"
+            android:layout_alignLeft="@+id/checkBox"
+            android:layout_alignStart="@+id/checkBox"
+            android:layout_above="@+id/textView2"
+            android:layout_alignRight="@+id/seekBar"
+            android:layout_alignEnd="@+id/seekBar" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="250px"
+            android:layout_height="70px"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Comment"
+            android:textSize="40px"
+            android:layout_gravity="center_vertical"
+            android:layout_alignBaseline="@+id/button_submit"
+            android:layout_alignBottom="@+id/button_submit"
+            android:layout_alignLeft="@+id/checkBox"
+            android:layout_alignStart="@+id/checkBox" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/edit_message2"
+            android:layout_marginLeft="155dp"
+            android:layout_marginStart="155dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Switch"
+            android:id="@+id/switch1"
+            android:layout_alignBottom="@+id/edit_message2"
+            android:layout_alignLeft="@+id/ratingBar"
+            android:layout_alignStart="@+id/ratingBar"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New CheckBox"
+            android:id="@+id/checkBox"
+            android:layout_alignBottom="@+id/edit_message3"
+            android:layout_alignLeft="@+id/switch1"
+            android:layout_alignStart="@+id/switch1" />
+
+        <SeekBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignLeft="@+id/checkBox"
+            android:layout_alignStart="@+id/checkBox"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

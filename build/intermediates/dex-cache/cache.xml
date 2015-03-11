@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/erkkis/AndroidStudioProjects/LearnmixerTablet/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/erkkis/AndroidStudioProjects/LearnmixerTablet/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-4e89d451b9dc16338dfa01358f591a3cde2c0c0a.jar" />
+    </item>
+    <item
+        jar="/Users/erkkis/AndroidStudioProjects/Learnmixer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/erkkis/AndroidStudioProjects/Learnmixer/app/build/intermediates/pre-dexed/debug/classes-3d9ea55bf97046c6460e14dafeedb093d163e4fa.jar" />
+    </item>
+    <item
+        jar="/Users/erkkis/AndroidStudioProjects/LearnmixerTablet/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/erkkis/AndroidStudioProjects/LearnmixerTablet/app/build/intermediates/pre-dexed/debug/classes-8134187fc31b02486c29a8d0edd81c78773f6060.jar" />
+    </item>
+    <item
+        jar="/Users/erkkis/AndroidStudioProjects/MySuperSexyProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/erkkis/AndroidStudioProjects/MySuperSexyProject/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-b2e51e6faab9f8d643f068f2456a16fffd518cf3.jar" />
+    </item>
+    <item
+        jar="/Users/erkkis/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/erkkis/AndroidStudioProjects/MySuperSexyProject/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-2d71e2fd22157974d57ef4f4ca2f59cba6dc383b.jar" />
+    </item>
+    <item
+        jar="/Users/erkkis/AndroidStudioProjects/Learnmixer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/erkkis/AndroidStudioProjects/Learnmixer/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-fbc552e06646c68f6d46a66ff8a8f32a562941fb.jar" />
+    </item>
+    <item
+        jar="/Users/erkkis/AndroidStudioProjects/Learnmixer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/erkkis/AndroidStudioProjects/Learnmixer/app/build/intermediates/pre-dexed/debug/classes-2315b41d24c626708e960dd051b75800f00d1e3e.jar" />
+    </item>
+    <item
+        jar="/Users/erkkis/AndroidStudioProjects/LearnmixerTablet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/erkkis/AndroidStudioProjects/LearnmixerTablet/app/build/intermediates/pre-dexed/debug/classes-6dc3a5e02bf03619351561293165d066bc644e06.jar" />
+    </item>
+    <item
+        jar="/Users/erkkis/AndroidStudioProjects/MySuperSexyProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/erkkis/AndroidStudioProjects/MySuperSexyProject/app/build/intermediates/pre-dexed/debug/classes-36bfa26416ba3ac3ac1989aec49195c5d9d69eec.jar" />
+    </item>
+    <item
+        jar="/Users/erkkis/AndroidStudioProjects/MySuperSexyProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/erkkis/AndroidStudioProjects/MySuperSexyProject/app/build/intermediates/pre-dexed/debug/classes-6a8f29501b6414c41bfb91e6b2ac3cb0763b651f.jar" />
+    </item>
+
+</items>

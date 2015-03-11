@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Super Sexy Project</string>
+
+    <string name="action_settings">Settings</string>
+
+
+
+    <string name="edit_message">Edit the sexy message</string>
+
+    <string name="name">Name</string>
+    <string name="like">Like</string>
+    <string name="dislike">Dislike</string>
+    <string name="name2">Enter name here</string>
+    <string name="like2">Enter what you like</string>
+    <string name="dislike2">Enter what you dislike</string>
+    <string name="label_submit">Submit</string>
+    <string name="title_activity_second_screen">SecondScreen</string>
+
+    <string name="hello_world">Welcome!</string>
+    <string name="label_button_back">Back</string>
+
+
+</resources>
